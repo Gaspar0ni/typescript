@@ -2,7 +2,7 @@
 
 as HTMLInputElement
 
-: number
++number
 
 +var      -     +numero1
 
