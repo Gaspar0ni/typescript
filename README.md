@@ -28,3 +28,28 @@ Union types (múltiplos tipos) -> let idade string|number = 90;
 
 Tipos literais->          function MostrarTexto(texto:string, alinhamento:'left'|'right'|'center'){}
 
+type MathFunction(n1:number, n2:number) => number;        function somar:MathFunction = (n1, n2) => { return n1+n2};
+
+tsc --init;
+
+"exclude": [ "src" ];
+
+"include":[ "src/script.js" ];              ->  "include":[ "src/*", "app.ts" ];
+
+target dentro do tsconfig.json                    ******************************
+
+rootDir e outDir dentro do tsconfig.json        *********************************
+
+exemplo DE "outDir:"public/assets/js"
+
+removeComents na pasta config                   ********************************
+
+noUnusedLocale = true
+
+noUnusedParametres
+
+
+
+
+
+
