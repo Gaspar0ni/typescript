@@ -26,3 +26,5 @@ function teste(nome:string, idade?:string)      //esse ponto de interrogação d
 
 Union types (múltiplos tipos) -> let idade string|number = 90;
 
+Tipos literais->          function MostrarTexto(texto:string, alinhamento:'left'|'right'|'center'){}
+
