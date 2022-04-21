@@ -16,3 +16,13 @@ comando para gerar um arquivo JS inválido(mesmo que tenha erro): "tsc script.ts
 
 Não criar arquivo com erro: "tsc script.ts --noEmitOnError"
 
+any
+
+padrão para receber parâmetros em funções
+
+charAt(), toUpperCase(), substring(), forEach(), 
+
+function teste(nome:string, idade?:string)      //esse ponto de interrogação diz que ele pode não vir
+
+Union types (múltiplos tipos) -> let idade string|number = 90;
+
